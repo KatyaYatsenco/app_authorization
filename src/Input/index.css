@@ -1,0 +1,53 @@
+
+
+.errorInput {
+    border: 1px solid red;
+}
+
+.errorMessage {
+    display: flex;
+    align-self: center;
+    font-size: 13px;
+    font-weight: 100;
+    color: red;
+}
+
+.formField {
+    display: flex;
+    flex-direction: column;
+    margin: 15px 10px;
+}
+
+.formField div {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.formField input[type='text'] {
+    width: 70%;
+}
+
+.submitButton {
+    display: flex;
+    margin: 15px auto;
+}
+
+.linkToRegistration {
+    width: 235px;
+    margin: auto;
+    display: flex;
+}
+
+.hint {
+    display: flex;
+    margin: 5px auto;
+    width: 250px;
+    justify-content: space-around;
+    font-size: 15px;
+}
+
+.hint a {
+    color: cornflowerblue;
+    text-decoration: none;
+}

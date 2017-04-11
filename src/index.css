@@ -1,0 +1,26 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.form {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  transition: height 12s;
+  width: 300px;
+}
+
+.formData {
+  border: 1px solid black;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+}
+
+.formTitle {
+  display: flex;
+  align-self: center;
+  color: cornflowerblue;
+}
